@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.5
+#!/usr/bin/env python3.6
 
 import re
 import os
@@ -43,9 +43,6 @@ class TestRsync:
 def main():
     t = TestRsync()
     t.sync()
-    #if os.path.exists("b/a"):
-    #    rmtree("/home/jmarin/PycharmProjects/Rsync/b/a")
-
 
 if __name__ == "__main__":
     main()
